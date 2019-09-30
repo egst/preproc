@@ -54,7 +54,9 @@ Příkazy pak obsahují na určených pozicích další klíčová slova a speci
 
 ```
 lorem|=show|ipsum
+```
 
+```
 |let a = list[0]; b = list[1]
     |=a
     |=b
