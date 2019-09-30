@@ -32,6 +32,8 @@ Příkazy pak obsahují na určených pozicích další klíčová slova a speci
 
 ## Příklady:
 
+Příklad konkrétního vstupu je v souborech `ex1.pp` (kód) a `ex1.ppd` (data).
+
 ```
 |if showFoo
     foo
