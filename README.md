@@ -28,7 +28,7 @@ Tento kód se skládá z příkazů uzavřených v `|...|` resp. `|...\n`, `|...
 Konce řádků se dají ignorovat explicitně pomocí `\` na konci řádku, nebo pomocí `;`,
 ale jen v místech, kde je v kódu `;` validní (příkaz `let`).
 Příkazy jsou jednoduché (`|= x|`), blokové (`|for x, y in z| ... |end|`), nebo "multi-blokové" (`|if x| ... |elif y| ... |else| ... |end|`).
-Příkazy pak obsahují na určených pozicích další klíčová slova a speciální symboly, jména proměnných a výrazy.
+Příkazy pak obsahují na určených pozicích další klíčová slova a speciální symboly, jména proměnných a výrazy. V těchto výrazech je možné přistupovat k datům definovaných v souboru `data.ppd` v proměnné `data`. Je to ale opravdu jen předdefinovaná proměnná, ne klíčové slovo, takže je ji možné "zastínit" vnořenými deklaracemi (`let`). Toto se dá využít třeba při dynamickém sestavování html dokumentů, kde se sestaví nějaká statická šablona a ta se pak zparsuje podle dynamických dat.
 
 ## Příklady:
 
