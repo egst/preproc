@@ -142,57 +142,55 @@ Object:
 
 == Examples: ==
 
-[:if showFoo:]
+|if showFoo
     foo
-[:end:]
+|end
 
-[:if show == "foo":]
+|if show == "foo"
     foo
-[:elif show == "bar":]
+|elif show == "bar"
     bar
-[:else:]
-    [:if baz:]
+|else
+    |if baz
         baz
-    [:else:]
+    |else
         boo
-    [:end:]
-[:end:]
+    |end
+|end
 
-[:=show:]
+lorem|=show|ipsum
 
-[:let a = list[0]; b = list[1]:]
-    [:=a:]
-    [:=b:]
-[:end:]
+|let a = list[0]; b = list[1]
+    |=a
+    |=b
+|end
 
-[:for elem in list:]
-    [:if elem == "foo":]
+|let a = list[0];
+     b = list[1]
+    |=a
+    |=b
+|end
+
+|for elem in list
+    |if elem == "foo"
         FOO
-    [:else:]
-        [:=elem:]
-    [:end:]
-[:end:]
+    |else
+        |=elem
+    |end
+|end
 
-| for elem in list
-|   if elem == "foo"
-      FOO
-|   else
-|     =elem
-|   end
-| end
+|for value in object
+    |=value
+|end
 
-[:for value in object:]
-    [:=value:]
-[:end:]
+|for key, value in object
+    |=key
+    |=value
+|end
 
-[:for key, value in object:]
-    [:=key:]
-    [:=value:]
-[:end:]
-
-[let a = 5]
-    [=a + 1]
-[end]
+|let a = 5
+    |=a + 1
+|end
 
 == Global data: ==
 
