@@ -1,0 +1,6 @@
+_*
+*.hi
+*.hs
+*.o
+*.exe
+.vscode

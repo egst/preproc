@@ -1,0 +1,43 @@
+{
+    "title": "Lorem Ipsum",
+    "articles": [
+        {
+            "title": "Foo",
+            "contents": [
+                {
+                    "tag": "p",
+                    "val": "..."
+                },
+                {
+                    "tag": "p",
+                    "val": "..."
+                },
+                {
+                    "tag": "img",
+                    "val": "..."
+                },
+                {
+                    "tag": "p",
+                    "val": "..."
+                }
+            ]
+        },
+        {
+            "title": "Bar",
+            "contents": [
+                {
+                    "tag": "p",
+                    "val": "..."
+                },
+                {
+                    "tag": "img",
+                    "val": "..."
+                },
+                {
+                    "tag": "p",
+                    "val": "..."
+                }
+            ]
+        }
+    ]
+}
